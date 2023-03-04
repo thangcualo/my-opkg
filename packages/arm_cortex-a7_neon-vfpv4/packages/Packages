@@ -1,0 +1,723 @@
+Package: cgi-io
+Version: 2021-09-08-98cef9dd-20
+Depends: libc, libubox20210819, libubus20210630
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8561
+Filename: cgi-io_2021-09-08-98cef9dd-20_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9379
+SHA256sum: 80137f825440a7ad08f76a42d5a594df53f9c80414e3af3c4b45d658192967bb
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: coreutils-date
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/date:/usr/libexec/date-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 40617
+Filename: coreutils-date_8.32-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 41549
+SHA256sum: 9f278242caf45e8d567146ce15de7b3c23918c6966bad63c67785d91e5b97d27
+Description:  Full version of standard GNU date utility.
+
+Package: coreutils
+Version: 8.32-6
+Depends: libc
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 104
+Filename: coreutils_8.32-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1006
+SHA256sum: 289f05ea4181683f8ad67ccf727c640eb73772e46fc798cb0a8cccf52120efb2
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: curl
+Version: 7.79.1-1
+Depends: libc, libcurl4
+License: MIT
+Section: net
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 55079
+Filename: curl_7.79.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 55806
+SHA256sum: 2a0c3d7a1c8a39e099e8139c35e6d5b52f48d074f22014dd111c3a46cc9b3147
+Description:  A client-side URL transfer utility
+
+Package: ddns-scripts-services
+Version: 2.8.2-15
+Depends: libc
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 4019
+Filename: ddns-scripts-services_2.8.2-15_all.ipk
+Size: 4651
+SHA256sum: 8e0e411044cffe60f5bfc391b2d174bcf2e6a3ec6862f44ea43d583eb75ec1ec
+Description:  Dynamic DNS Client definitions for supported services
+
+Package: ddns-scripts
+Version: 2.8.2-15
+Depends: libc, ddns-scripts-services
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 23787
+Filename: ddns-scripts_2.8.2-15_all.ipk
+Size: 24816
+SHA256sum: 84be6bbe468f48af27ca0f4d4c0956d4b4556e8b4d67f4f10463a444deb85d66
+Description:  Dynamic DNS Client scripts (with IPv6 support)
+ A highly configurable set of scripts for doing dynamic dns updates.
+ - IPv6 support
+ - DNS server support
+ - Glue Record support (require BIND host or KNOT host)
+ - DNS requests via TCP
+ - Proxy server support
+ - log file support
+ - support to run once
+ Version: 2.8.2-15
+ Info   : https://openwrt.org/docs/guide-user/services/ddns/client
+
+Package: eoip
+Version: 0.5-1
+Depends: libc, kmod-tun, libpthread, liblzo2
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8311
+Filename: eoip_0.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9164
+SHA256sum: 8466a088965239cb7722ab239a8b69bb7f2de9e18918ef5ce26f93ba351b2774
+Description:  linux-eoip can create ethernet tunnels compatible with Mikrotik EoIP tunnel.
+ At current moment it is easiest way to create stateless tunnel with Mikrotik.
+
+Package: etherwake
+Version: 1.09-5
+Depends: libc
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5072
+Filename: etherwake_1.09-5_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6009
+SHA256sum: 26795d57db6418201d921e8cf226b50bc23fd4675b3eab05e9d23f654f1349e1
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: gdisk
+Version: 1.0.8-1
+Depends: libc, libstdcpp6, libuuid1
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 60162
+Filename: gdisk_1.0.8-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 61049
+SHA256sum: 9499315fbff882c223d391338bfb1f5605edb7a6411dd500a7b6757eb8502665
+Description:  gdisk is GPT aware disk partitioning tool, with interactive UI.
+
+Package: hd-idle
+Version: 1.05-2
+Depends: libc
+License: GPL-2.0
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4644
+Filename: hd-idle_1.05-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5463
+SHA256sum: 6a5761e8482932b6ceb46a08ca5ba2a7491b47e33c4a123b3aa705756e14c25b
+Description:  hd-idle is a utility program for spinning-down external disks after a period of idle time.
+
+Package: httping
+Version: 2.5-1
+Depends: libc, libopenssl1.1
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 24193
+Filename: httping_2.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 24982
+SHA256sum: 027ad54016e28923d7777899fd5f89ef84bd0aca30175c15a175f4149587fd7a
+Description:  Give it an url, and it'll show you how long it takes to connect, send a
+ request and retrieve the reply (only the headers). Be aware that the
+ transmission across the network also takes time!
+ This package is built with SSL support.
+
+Package: iperf3-ssl
+Version: 3.10.1-1
+Depends: libc, libopenssl1.1
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 50007
+Filename: iperf3-ssl_3.10.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 50840
+SHA256sum: eb7f863ed20470c9e81645035ba56eb5ced21daa337382b97d30dbe7bf0700fa
+Description:  Internet Protocol bandwidth measuring tool with iperf_auth support
+
+Package: irqbalance
+Version: 1.8.0-1
+Depends: libc
+License: GPLv2
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 48655
+Filename: irqbalance_1.8.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 49629
+SHA256sum: ef95ec4898b2e9050b9d3f617ceddebdf8ff0e153d08f5e90f6503c124e5c730
+Description:  The purpose of irqbalance is to distribute hardware interrupts across
+ processors/cores on a multiprocessor/multicore system in order to
+ increase performance.
+
+Package: ksmbd-server
+Version: 3.4.2-1
+Depends: libc, kmod-fs-ksmbd, libnl-core200, libnl-genl200
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 56261
+Filename: ksmbd-server_3.4.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 57145
+SHA256sum: 428736a94db08b415d1e0ed16176c49789338bab6100536bc8abdf802ae27eb9
+Description:  installs: ksmbd.mountd
+ 
+ This provides the basic fileserver service and is the minimum needed to serve 'guest only' file shares or use a existing user database file ksmbdpwd.db.
+
+Package: libcbor0
+Version: 0.8.0-1
+Depends: libc
+Provides: libcbor
+License: GPL-3.0-or-later
+Section: libs
+ABIVersion: 0
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 14462
+Filename: libcbor0_0.8.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 15307
+SHA256sum: a0b481b13c241a2ffca5169bfdfb85d6b81d7ad05b4fbbf6321ecae4cd2db93d
+Description:  libcbor is a C library for parsing and generating CBOR, the general-purpose schema-less binary data format.
+
+Package: libcurl4
+Version: 7.79.1-1
+Depends: libc, libwolfssl4.8.1.39c36f2f, libnghttp2-14, ca-bundle
+Provides: libcurl
+License: MIT
+Section: libs
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 147406
+Filename: libcurl4_7.79.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 147629
+SHA256sum: d72982efb699171043f72883152d1d3530c14c9552e1a0a03e0f71fd9314204b
+Description:  A client-side URL transfer library
+
+Package: libevdev
+Version: 1.11.0-1
+Depends: libc
+License: MIT
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 24688
+Filename: libevdev_1.11.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 24476
+SHA256sum: bdd1b578d4043e4300ab0e11a79b478166d19196d946fedf76fa27a97e13e550
+Description:  libevdev is a wrapper library for evdev devices. it moves the common
+ tasks when dealing with evdev devices into a library and provides a
+ library interface to the callers, thus avoiding erroneous ioctls, etc.
+ 
+ The eventual goal is that libevdev wraps all ioctls available to
+ evdev devices, thus making direct access unnecessary.
+
+Package: libfido2-1
+Version: 1.8.0-1
+Depends: libc, libcbor0, libopenssl1.1, libudev, zlib
+Provides: libfido2
+License: GPL-3.0-or-later
+Section: libs
+ABIVersion: -1
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 64685
+Filename: libfido2-1_1.8.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 65588
+SHA256sum: 01bc1cb50c23d0c2436241c0cbc039c7f7bd29209ebbbb9050b3ba0e696affb8
+Description:  libfido2 provides library functionality and command-line tools to communicate with a FIDO device over USB, and to verify attestation and assertion signatures.
+ 
+ libfido2 supports the FIDO U2F (CTAP 1) and FIDO 2.0 (CTAP 2) protocols.
+
+Package: libgnutls
+Version: 3.7.1-1
+Depends: libc, libnettle8, libgmp10, libatomic1
+License: LGPL-2.1-or-later
+Section: libs
+CPE-ID: cpe:/a:gnu:gnutls
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 899267
+Filename: libgnutls_3.7.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 896806
+SHA256sum: 8a59cb9ad157b22ccfaf8bb52aad9619f0543158599f70f93a7e9bef4eadc138
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS shared library, needed by other programs.
+
+Package: libimobiledevice-utils
+Version: 1.3.0-2
+Depends: libc, libimobiledevice
+License: GPL-2.0-or-later
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 99033
+Filename: libimobiledevice-utils_1.3.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 99689
+SHA256sum: 2abdfb7aa53b3bdbbfac5c3663f622cbe26737eb8dbda74e5ac44863f02ea5d3
+Description:  libimobiledevice is a software library that talks the protocols to support
+ iPhone®, iPod Touch®, iPad® and Apple TV® devices.
+ This package contains the libimobiledevice utilities.
+
+Package: libimobiledevice
+Version: 1.3.0-2
+Depends: libc, libplist, libusbmuxd, libopenssl1.1
+License: LGPL-2.1-or-later
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 49723
+Filename: libimobiledevice_1.3.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 50618
+SHA256sum: d839a0c12000958d662b8763819e650c91dc9ffa61e242dd886dfb5662c73932
+Description:  libimobiledevice is a software library that talks the protocols to support
+ iPhone®, iPod Touch®, iPad® and Apple TV® devices.
+
+Package: liblzo2
+Version: 2.10-4
+Depends: libc
+Provides: liblzo
+License: GPL-2.0-or-later
+Section: libs
+ABIVersion: 2
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 36129
+Filename: liblzo2_2.10-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 36977
+SHA256sum: 5ba93e91bcd18bc08f0684de19d32fa266fefc13f28a66a0f3b3148cb98aa285
+Description:  LZO is a data compression library which is suitable for data de-/compression
+ in real-time. This means it favours speed over compression ratio.
+
+Package: libminiupnpc
+Version: 2.2.2-1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:miniupnp_project:miniupnp
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 21110
+Filename: libminiupnpc_2.2.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 21892
+SHA256sum: 893a615d22d8be57314ff4fd05dceff5d006400e8d85c7e8a8a60475a14aadbf
+Description:  Lightweight UPnP library
+
+Package: libnatpmp1
+Version: 20150609-3
+Depends: libc
+Provides: libnatpmp
+License: BSD-3-Clause
+Section: libs
+ABIVersion: 1
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3365
+Filename: libnatpmp1_20150609-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4275
+SHA256sum: f9c0372b29756723deb58c659294701042bba22f804401a9f280c132fdf16338
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the shared library.
+
+Package: libnghttp2-14
+Version: 1.44.0-1
+Depends: libc
+Provides: libnghttp2
+License: MIT
+Section: libs
+ABIVersion: -14
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 56234
+Filename: libnghttp2-14_1.44.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 55364
+SHA256sum: 0a697294b5076a511274f117f5f79d1bf778af18c44e14c0b6c363ec1ca2ff29
+Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
+
+Package: libplist
+Version: 2.2.0-3
+Depends: libc, libxml2
+Section: libs
+CPE-ID: cpe:/a:libimobiledevice:libplist
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 21569
+Filename: libplist_2.2.0-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 22359
+SHA256sum: d8d982ee1074ecbc831fe4059b7167e4ea874bf9ba3b46a4df27c7ef471f862d
+Description:  A library to handle Apple Property List format whereas it's binary or XML
+
+Package: libudev-zero
+Version: 1.0.0-1
+Depends: libc, libevdev
+Conflicts: libudev, eudev, udev
+Provides: libudev
+License: MIT
+Section: libs
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8639
+Filename: libudev-zero_1.0.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9388
+SHA256sum: f4f0ee0c1cd92112cb672c6e31a7787f3218a818cb85b990054afdbea353d9f1
+Description:  Drop-in replacement for libudev
+
+Package: libusbmuxd-utils
+Version: 2.0.2-1
+Depends: libc, libusbmuxd
+License: GPL-2.0-or-later
+Section: utils
+CPE-ID: cpe:/a:libimobiledevice:libusbmuxd
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 11533
+Filename: libusbmuxd-utils_2.0.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 12554
+SHA256sum: 8b3b06d70dd8f05524a98993b96f3609136cddf89dc56231245f08693d9c79ce
+Description:  This daemon is in charge of multiplexing connections over USB to an iPhone or
+ iPod touch. To users, it means you can sync your music, contacts, photos, etc.
+ over USB. To developers, it means you can connect to any listening localhost
+ socket on the device. usbmuxd is not used for tethering data transfer, which
+ uses a dedicated USB interface as a virtual network device.
+ This package contains the libusbmuxd utilities.
+
+Package: libusbmuxd
+Version: 2.0.2-1
+Depends: libc, libplist, libpthread, libxml2, zlib
+Section: libs
+CPE-ID: cpe:/a:libimobiledevice:libusbmuxd
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 15894
+Filename: libusbmuxd_2.0.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 16871
+SHA256sum: e21a7de62f1b482fa5c5491add0c7ce62eefe1b8f6c6bacb6bebb2eb0c4c19f4
+Description:  This daemon is in charge of multiplexing connections over USB to an iPhone or
+ iPod touch. To users, it means you can sync your music, contacts, photos, etc.
+ over USB. To developers, it means you can connect to any listening localhost
+ socket on the device. usbmuxd is not used for tethering data transfer, which
+ uses a dedicated USB interface as a virtual network device.
+ This package contains the libusbmuxd shared library.
+
+Package: libxml2
+Version: 2.9.12-1
+Depends: libc, libpthread, zlib
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 469917
+Filename: libxml2_2.9.12-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 468303
+SHA256sum: 3d12da088a4a30c3e33491fbf5117424a5a41659067707a2700222eb3a345dc3
+Description:  A library for manipulating XML and HTML resources.
+
+Package: msmtp
+Version: 1.8.15-1
+Depends: libc, libgnutls, ca-bundle
+License: GPL-3.0-or-later
+Section: mail
+CPE-ID: cpe:/a:marlam:msmtp
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 44528
+Filename: msmtp_1.8.15-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 45551
+SHA256sum: 11c31c7d33f86bd0aca4fdd362c052330286d95405533cb7cd2027b8345efe1e
+Description:  msmtp is an SMTP client. In the default mode, it transmits a mail to
+ an SMTP server (for example at a free mail provider) which does the
+ delivery. To use this program with your mail user agent (MUA), create
+ a configuration file with your mail account(s) and tell your MUA to
+ call msmtp instead of /usr/sbin/sendmail.
+ This package is built with SSL support.
+
+Package: mwan3
+Version: 2.10.12-1
+Depends: libc, ip, ipset, iptables, iptables-mod-conntrack-extra, iptables-mod-ipopt, jshn
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 21252
+Filename: mwan3_2.10.12-1_all.ipk
+Size: 22311
+SHA256sum: a77a9538396d8c411ad407513f3c7b22a57f8637c4fb73aa3f1ff3d6fd5954e6
+Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
+ and manageable. With loadbalancing/failover support for up to 250 wan
+ interfaces, connection tracking and an easy to manage traffic ruleset.
+
+Package: nano
+Version: 5.9-1
+Depends: libc, libncurses6
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:nano
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 63191
+Filename: nano_5.9-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 64016
+SHA256sum: 6850219db481f771e4fd7958261e7f24570700b361153ee75d161fdba64f4e25
+Description:  Nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone
+ of the Pico text editor.
+
+Package: nft-qos
+Version: 1.0.6-3
+Depends: libc, kmod-nft-netdev, kmod-nft-bridge, nftables
+License: GPL-2.0
+Section: utils
+Architecture: all
+Installed-Size: 4817
+Filename: nft-qos_1.0.6-3_all.ipk
+Size: 5692
+SHA256sum: 5368e9369b8a6264200d0f5c2b0217648d8095e90103dbe39693040c8b7a68ad
+Description:  This package provides implementation for qos over nftables.
+ Currently, static/dynamic qos and traffic shaping are supported.
+
+Package: ntfs-3g
+Version: 2021.8.22-1-fuseint
+Depends: libc, kmod-fuse, libpthread
+License: GPL-2.0-only LGPL-2.1-or-later
+Section: utils
+CPE-ID: cpe:/a:ntfs-3g:ntfs-3g
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 193940
+Filename: ntfs-3g_2021.8.22-1-fuseint_arm_cortex-a7_neon-vfpv4.ipk
+Size: 194730
+SHA256sum: aa0372e84e69ceba4d2fa0834c56c9b7c2f1b5d0c4921a3e3b8640fa4b12cd7c
+Description:  Ntfs-3g is a NTFS driver, which can create, remove, rename,
+ move files, directories, hard links, and streams. It can read
+ and write files, including streams and sparse files. It can
+ handle special files like symbolic links, devices, and FIFOs.
+ Moreover it can also read transparently compressed files.
+ 
+ Contains:
+ - ntfs-3g
+ - ntfs-3g.probe
+ - mount.ntfs-3g (symlink to ntfs-3g)
+ 
+
+Package: openssh-client-utils
+Version: 8.8p1-1
+Depends: libc, libopenssl1.1, zlib, openssh-client, openssh-keygen
+License: BSD ISC
+Section: net
+CPE-ID: cpe:/a:openssh:openssh
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 636588
+Filename: openssh-client-utils_8.8p1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 633993
+SHA256sum: e7a5a17605c9a615d0bf28b79d97ee57a22eb951f02e40deb2c3d4f6c9d34bfd
+Description:  OpenSSH client utilities.
+
+Package: openssh-client
+Version: 8.8p1-1
+Depends: libc, libopenssl1.1, zlib
+Alternatives: 200:/usr/bin/ssh:/usr/libexec/ssh-openssh, 200:/usr/bin/scp:/usr/libexec/scp-openssh
+License: BSD ISC
+Section: net
+CPE-ID: cpe:/a:openssh:openssh
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 421561
+Filename: openssh-client_8.8p1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 421198
+SHA256sum: ff298fc97b8c4fcb5b7d745851acf447644aeef8ba3874213fca45c5e67b4f47
+Description:  OpenSSH client.
+
+Package: openssh-keygen
+Version: 8.8p1-1
+Depends: libc, libopenssl1.1, zlib
+License: BSD ISC
+Section: net
+CPE-ID: cpe:/a:openssh:openssh
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 195447
+Filename: openssh-keygen_8.8p1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 194970
+SHA256sum: b6fab609cb69d75fbe3425458022c084155ba29beaab9c04f186e286e8625422
+Description:  OpenSSH keygen.
+
+Package: openssh-moduli
+Version: 8.8p1-1
+Depends: libc, libopenssl1.1, zlib, openssh-keygen
+License: BSD ISC
+Section: net
+CPE-ID: cpe:/a:openssh:openssh
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 18132
+Filename: openssh-moduli_8.8p1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 16873
+SHA256sum: e5db4448da1ddd2a4709ccdfec0573f745a76e99cf9623477f683c0ba833c36e
+Description:  OpenSSH server moduli file.
+
+Package: openssh-server
+Version: 8.8p1-1
+Depends: libc, libopenssl1.1, zlib, openssh-keygen, libfido2-1
+License: BSD ISC
+Section: net
+CPE-ID: cpe:/a:openssh:openssh
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 356918
+Filename: openssh-server_8.8p1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 356561
+SHA256sum: c23e2d651137eb4ab7ad0dbc8f0778e2ea4e5be8f48ef8ce195211d19d13f46d
+Description:  OpenSSH server.
+
+Package: openvpn-easy-rsa
+Version: 3.0.8-3
+Depends: libc, openssl-util
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 27919
+Filename: openvpn-easy-rsa_3.0.8-3_all.ipk
+Size: 28791
+SHA256sum: c82de1663a8f745ef01516fe9a03705ec2b10fd5f74acff593f5e42a87085171
+Description:  CLI utility to build and manage a PKI CA.
+
+Package: openvpn-openssl
+Version: 2.5.3-3
+Depends: libc, kmod-tun, liblzo2, libopenssl1.1
+Provides: openvpn, openvpn-crypto
+License: GPL-2.0
+Section: net
+CPE-ID: cpe:/a:openvpn:openvpn
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 207340
+Filename: openvpn-openssl_2.5.3-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 208027
+SHA256sum: 0012f0e6f338a4fb64218eae6488cad69c7bd1f6eca5f3a139c58878c635778c
+Description:  Open source VPN solution using OpenSSL
+
+Package: p910nd
+Version: 0.97-9
+Depends: libc
+License: GPLv2
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 6864
+Filename: p910nd_0.97-9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7894
+SHA256sum: 30a502a34837883a71e496dd5433e8f6899551891697ab6fae0df290620f66a7
+Description:  p910nd is a small daemon that copies any data received on
+ the port it is listening on to the corresponding printer
+ port. It is primarily intended for diskless Linux hosts
+ running as printer drivers but there is no reason why it
+ could not be used on diskful hosts. Port 9100 is copied
+ to /dev/lp0, 9101 to /dev/lp1 and 9102 to /dev/lp2. The
+ default is port 9100 to /dev/lp0.
+
+Package: picocom
+Version: 3.1-5
+Depends: libc
+License: LICENSE.txt
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 19621
+Filename: picocom_3.1-5_arm_cortex-a7_neon-vfpv4.ipk
+Size: 20325
+SHA256sum: d27f2eff0a3fde2382f412a58809ca770bf78a9cd4b196176b03b858e37f0463
+Description:  minimal dumb-terminal emulation program
+
+Package: sqm-scripts
+Version: 1.5.1-1
+Depends: libc, tc, kmod-sched-core, kmod-ifb, iptables, iptables-mod-ipopt, iptables-mod-conntrack-extra, kmod-sched-cake
+License: GPL-2.0-only
+Section: net
+Architecture: all
+Installed-Size: 18001
+Filename: sqm-scripts_1.5.1-1_all.ipk
+Size: 18900
+SHA256sum: 3f4a671e78b3775e09bf46dc0c7f5ccd4ce6cc1554d77170a834c038fc0a9bc5
+Description:  A set of scripts that does simple SQM configuration.
+
+Package: usbmuxd
+Version: 1.1.1-1
+Depends: libc, librt, libusb-1.0-0, libusbmuxd, libopenssl1.1, libimobiledevice
+License: GPL-2.0-or-later
+Section: utils
+CPE-ID: cpe:/a:libimobiledevice:usbmuxd
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 29138
+Filename: usbmuxd_1.1.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 30159
+SHA256sum: 3edfdf0076c434467c52f7a0a2ece46cfd347a5337cc7beaba43b9e6515a0fec
+Description:  This daemon is in charge of multiplexing connections over USB to an iPhone or
+ iPod touch. To users, it means you can sync your music, contacts, photos, etc.
+ over USB. To developers, it means you can connect to any listening localhost
+ socket on the device. usbmuxd is not used for tethering data transfer, which
+ uses a dedicated USB interface as a virtual network device.
+
+Package: usbutils
+Version: 014-1
+Depends: libc, libusb-1.0-0, libudev, librt, libpthread
+License: GPL-2.0-only
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 53251
+Filename: usbutils_014-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 54016
+SHA256sum: 4ceef130415f72fdaa84f211114c9cb213f7fb2a610492a7c7b32de254b7f264
+Description:  USB devices listing utilities
+
+Package: vpn-policy-routing
+Version: 0.3.5-2
+Depends: libc, jshn, ipset, iptables, resolveip, kmod-ipt-ipset, iptables-mod-ipopt, ip-full
+License: GPL-3.0-or-later
+Section: net
+Architecture: all
+Installed-Size: 13728
+Filename: vpn-policy-routing_0.3.5-2_all.ipk
+Size: 14834
+SHA256sum: 3e51af99773e88f2315fa6f81863a26a0fa5d296b141a4f8af80ae7096067c1c
+Description:  This service allows policy-based routing for L2TP, Openconnect, OpenVPN, PPTP and Wireguard tunnels and WAN interface.
+ Policies can specify domains, local IPs/subnets and ports, as well as remote IPs/subnets and ports.
+
+Package: wsdd2
+Version: 2021-08-09-bcc51c3e-1
+Depends: libc
+License: GPL-3.0-only
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 18605
+Filename: wsdd2_2021-08-09-bcc51c3e-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 19605
+SHA256sum: 721d3555bd4e445ccd3c89bf4737ddb2867173f54124abe496bf7f91ea5ee0ba
+Description:  Web Services for Devices or Web Services on Devices (WSD),
+ is a Microsoft API to simplify programming connections to web service
+ enabled devices, such as printers, scanners and file shares.
+ 
+ This daemon advertises and responds to probe requests from Windows clients looking for file shares.
+ It also implements LLMNR multicast name lookup services.
+
+Package: zerotier
+Version: 1.6.6-2
+Depends: libc, libpthread, libstdcpp6, kmod-tun, ip, libminiupnpc, libnatpmp1
+License: BSL 1.1
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 421460
+Filename: zerotier_1.6.6-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 421853
+SHA256sum: 5fc0275e87b4c5f3b43e1014ec346162f2ef3ba8da70764a1fd0be6d728b895b
+Description:  ZeroTier creates a global provider-independent virtual private cloud network.
+

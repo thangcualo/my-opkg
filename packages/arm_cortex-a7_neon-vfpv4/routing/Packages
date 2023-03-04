@@ -1,0 +1,42 @@
+Package: alfred
+Version: 2021.3-1
+Depends: libc, libnl-tiny1, librt
+License: GPL-2.0-only MIT
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 22700
+Filename: alfred_2021.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 23968
+SHA256sum: 3e476c1bc132bddb6e1c41630265cee2fb9d64eedf0b2a7613d73b6cee2fcbc7
+Description:  alfred is a user space daemon for distributing arbitrary local information
+ over the mesh/network in a decentralized fashion. This data can be anything
+ which appears to be useful - originally designed to replace the batman-adv
+ visualization (vis), you may distribute hostnames, phone books, administration
+ information, DNS information, the local weather forecast ...
+ 
+ alfred runs as daemon in the background of the system. A user may insert
+ information by using the alfred binary on the command line, or use special
+ programs to communicate with alfred (done via unix sockets). alfred then takes
+ care of distributing the local information to other alfred servers on other
+ nodes. This is done via IPv6 link-local multicast, and does not require any
+ configuration. A user can request data from alfred, and will receive the
+ information available from all alfred servers in the network.
+
+Package: batctl-default
+Version: 2021.3-1
+Depends: libc, libnl-tiny1, librt
+Provides: batctl
+Alternatives: 200:/usr/sbin/batctl:/usr/libexec/batctl-default
+License: GPL-2.0-only ISC MIT
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 41250
+Filename: batctl-default_2021.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 42371
+SHA256sum: 076b86f4e95c030980dc4f84618359b885d89c244b7e133d3c1c00339df77bb9
+Description:  batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced.
+ It is an easier method for configuring batman-adv and provides some
+ additional tools for debugging as well. This package builds
+ version 2021.3 of the user space utility.
+ Standard subcommands for configuration and online debugging are enabled.
+
